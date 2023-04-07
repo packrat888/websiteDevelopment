@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>J's Sneakers</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="shortcut icon" href="favicon.ico">
+<style>
+</style>
+<script>
+
+function countDown()
+{
+var todayIs = new Date()
+var saleDate = new Date ("January 1, 2023")
+var daysSubtracted = saleDate - todayIs;
+var daysUntil=Math.ceil(daysSubtracted/(1000*60*60*24));
+document.write("There are " + daysUntil + " days until our New Year's sale!");
+}
+function shoeQuote()
+{
+var ourQuotes=new Array()
+ourQuotes[0]="Good sneakers take you good places.";
+ourQuotes[1]="Life is short buy sneakers.";
+ourQuotes[2]="Shoes speak louder than words.";
+ourQuotes[3]="Dream chasers wear sneakers.";
+ourQuotes[4]="Money can't buy love, but it can buy you sneakers.";
+
+randomNum=Math.floor(Math.random()*5);
+document.write("Shoe Quote For You: "+ourQuotes[randomNum]);
+}
+</script>
+</head>
+<body>
+<div id="wrapper">
+<header>
+<h1 style ="color:#F0F8FF;font-family:verdana";>J's Sneakers</h1>
+</header>
+<nav>
+<UL>
+<li><a href="index.html">Home</a></li>
+<li><a href="resources.html">Links</a></li>
+<li><a href="pictures.html">Pictures</a></li>
+<li><a href="contactus.html">Contact Us</a></li>
+<li><a href="customerform.html">Request Information</a></li>
+
+</UL>
+</nav>
+<main>
+<h1>
+<script>
+countDown()
+</script>
+</h1>
+<h2 style ="color:#FFF8DC;font-family:verdana;background-color:#000000">About J's Sneaker</h2>
+<p><h4 style ="color:#000000;font-family:times new roman";> J's Sneakers is a business that provides high quality new and used shoes for our customers to provide them with the shoes to
+ give them more confidence about the shoes they're wearing when walking around. If you're looking for sneakers that look good and 
+make you feel good about what you have on then J's sneakers is the way to go. We have a wide variety of high-end sneakers including 
+Jordan's, Yeezy's , Nike's, and many more brands that everone loves. On top of all of this we also provide our customers with good prices,
+ we have have competitive pricing that beats out other sneaker stores out there.</h4></p>
+<p><h4 style ="color:#000000;font-family:times new roman";>All of our sneakers are plastic wrapped to preserve that fresh out of the box look to prevent them from getting damaged by the outside environment.
+ When you're spending your hard earned money on a pair of sneakers we like to make sure they are well worth your investment.The sneakers we sell are well 
+taken care of and we do this for our customers to make sure they're getting the product they paid for. We are a business that loves keeping our customers 
+in mind and always doing the best we can to make sure they are satisfied.</h4></p>
+<h2 style ="color:#FFF8DC;font-family:verdana;background-color:#000000;">Our Sneakers</h2>
+<h3>
+<script>
+shoeQuote()
+</script>
+</h3>
+<dl>
+<dt>Jordans</dt>
+<dd>We have all kinds of Jordans from Jordan 1s to Jordan 4s, carrying all sorts of different styles including lows, highs, and mids.</dd>
+<dt>Yeezy</dt>
+<dd>Yeezys are coming and going out of our store all the time, we carry all the exclusive Yeezys ranging from 350s to 700s.</dd>
+<dt>Nikes</dt>
+<dd>With Nikes we carry a lot of dunks which are very sought out for in the sneaker world today, including your SBs that everyone loves.</dd>
+</dl>
+<br>
+<video controls="controls" autoplay="autoplay" width="400" height="200">
+<source src="sneaker.mp4" type="video/mp4">
+</video>
+<h1>
+<script>
+var usersName;
+usersName=prompt("What is your name?");
+alert("Welcome to the page, "+usersName+"!")
+
+</script>
+</h1>
+<script>
+window.document.write("This page was last modified on "+document.lastModified);
+</script>
+</main> 
+<footer>
+<small style ="color:#4682B4;font-family:verdana"> <i>Copyright &copy; 2022 Jace Johnson</i></small> <b style ="color:#4682B4;font-family:verdana">For more information, contact us at</b> <a href="mailto:jace.johnson@go.tarleton.edu">contact@jace.johnson@go.tarleton.edu</a></h4>
+</footer>
+</div>
+</body>
+
+
+</html>

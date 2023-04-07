@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>J's Sneakers Request Information</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="shortcut icon" href="favicon.ico">
+<style>
+</style>
+</head>
+<body>
+<div id="wrapper">
+<header>
+<h1 style ="color:#F0F8FF;font-family:verdana";>J's Sneakers Request Information</h1>
+</header>
+<nav>
+<UL>
+<li><a href="index.html">Home</a></li>
+<li><a href="resources.html">Links</a></li>
+<li><a href="pictures.html">Pictures</a></li>
+<li><a href="contactus.html">Contact Us</a></li>
+<li><a href="customerform.html">Request Information</a></li>
+</UL>
+</nav>
+<main>
+<h2 style ="color:#FFF8DC;font-family:verdana;background-color:#000000">Request Information</h2>
+<form method="post" action="mailto:jace.johnson@go.tarleton.edu" name="inforequest">
+Name: <input type="text" name="Name" required="required"><br>
+<label for="myEmail">Email:</label><input type="email" name="myEmail" id="myEmail" required="required"><br>
+<label for="mobile">Mobile Number:</label><input type="tel" name="mobile" id="mobile" required="required"><br>
+Where did you hear about us?:<select name="advertisement">
+<option>Select</option>
+<option value="friend">Friend</option>
+<option value="Online Advertisement">Online Advertisement</option>
+<option value="Newspaper">Newspaper</option>
+<option value="Social Media">Social Media</option>
+</select><br>
+Have you shopped with us before?: <input type="radio" name="customer" value="yes">Yes
+<input type="radio" name="customer" value="no">No
+<br>
+What's this request about?: <input type="checkbox" name="info" value="hrs">Hours
+<input type="checkbox" name="info" value="inventory">Inventory
+<input type="checkbox" name="info" value="policy">Policy
+<input type="text" name="info">Other
+<br>
+How would you like us to respond?: <input type="checkbox" name"response" value="email">Email
+<input type="checkbox" name"response" value="phone">Phone
+<br>
+Additional Comments:
+<textarea cols="50"></textarea>
+<br>
+
+<input type="submit" value="Submit">
+<input type="reset">
+</form>
+<script>
+window.document.write("This page was last modified on "+document.lastModified);
+</script>
+</main> 
+<footer>
+<small style ="color:#4682B4;font-family:verdana"> <i>Copyright &copy; 2022 Jace Johnson</i></small> <b style ="color:#4682B4;font-family:verdana">For more information, contact us at</b> <a href="mailto:jace.johnson@go.tarleton.edu">contact@jace.johnson@go.tarleton.edu</a></h4>
+
+</footer>
+</div>
+</body>
+
+
+</html>
